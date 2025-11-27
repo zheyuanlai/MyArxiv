@@ -1,31 +1,37 @@
 site_title = "MyArxiv"
 limit_days = 7
-cache_url = "https://mlnlp-world.github.io/MyArxiv/cache.json"
+cache_url = "https://zheyuanlai.github.io/MyArxiv/cache.json"
 
 [[sources]]
 limit = 150
-category = "cs.CL"
-title = "Computation and Language"
-
-[[sources]]
-limit = 150
-category = "cs.CV"
-title = "Computer Vision and Pattern Recognition"
-
-[[sources]]
-limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
-
-[[sources]]
-limit = 150
-category = "cs.LG"
+category = "stat.ML"
 title = "Machine Learning"
 
 [[sources]]
 limit = 150
-category = "cs.MM"
-title = "Multimedia"
+category = "stat.CO"
+title = "Computation"
+
+[[sources]]
+limit = 150
+category = "math.OC"
+title = "Optimization and Control"
+
+[[sources]]
+limit = 150
+category = "math.PR"
+title = "Probability"
+
+[[sources]]
+limit = 150
+category = "math.NA"
+title = "Numerical Analysis"
+
+[[sources]]
+limit = 150
+category = "math.MP"
+title = "Mathematical Physics"
+
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
